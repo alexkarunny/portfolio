@@ -1,0 +1,20 @@
+.nav {
+    border: 1px solid #000;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-transform: uppercase;
+    font: 500 16px/20px 'Montserrat', sans-serif;
+    color: #282c34;
+}
+
+a:hover {
+    color: #ff508e;
+}
+
+.active {
+    color: #ff508e;
+}

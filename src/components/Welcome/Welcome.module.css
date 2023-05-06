@@ -1,0 +1,49 @@
+.welcomeBlock {
+    background-color: #fff;
+    height: 100vh;
+}
+
+.about {
+    width: 500px;
+    text-align: left;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font: 600 36px/36px 'Montserrat' ;
+    letter-spacing: 1px;
+}
+
+h1 .name {
+    color: #ff508e;
+}
+
+.occupation {
+    margin-bottom: 30px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.description {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+}
+
+.photo {
+    width: 500px;
+    height: 500px;
+    padding: 15px;
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 60px 0 rgb(243, 243, 243, 1);
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
