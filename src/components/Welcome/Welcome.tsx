@@ -11,7 +11,8 @@ export const Welcome = () => {
                     <img src={foto} alt=""/>
                 </div>
                 <div className={styles.about}>
-                    <h1>Hi there, I'm <span className={styles.name}>Alex Karunny</span></h1>
+                    <h5 className={commonStyles.subTitle}>About</h5>
+                    <h2 className={commonStyles.title}>Hi there, I'm <span className={styles.name}>Alex Karunny</span></h2>
                     <span className={styles.occupation}>Front-end developer based in Minsk </span>
                     <p className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, commodi, et incidunt neque
                         numquam omnis quod rerum sint soluta Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, architecto blanditiis consectetur consequuntur dolorem <br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur eius enim et facere illum laboriosam placeat praesentium quam similique?</p>

@@ -8,13 +8,7 @@
     text-align: left;
 }
 
-h1 {
-    margin-bottom: 15px;
-    font: 600 36px/36px 'Montserrat' ;
-    letter-spacing: 1px;
-}
-
-h1 .name {
+h2 .name {
     color: #ff508e;
 }
 
