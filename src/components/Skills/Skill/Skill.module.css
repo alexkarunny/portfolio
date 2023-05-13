@@ -1,5 +1,5 @@
 .skill {
-    width: 250px;
+    width: 330px;
     padding: 30px;
     border: 1px solid #fff;
     border-radius: 10px;
@@ -23,6 +23,32 @@
 .icon img {
     width: 40px;
     height: 40px;
+}
+
+.title {
+    margin: 25px 0;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #000;
+}
+
+.description {
+    font: 400 16px/30px 'Arimo', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 

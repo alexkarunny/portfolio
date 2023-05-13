@@ -6,7 +6,7 @@ import foto from '../../content/img/foto.png'
 export const Welcome = () => {
     return (
         <div className={styles.welcomeBlock}>
-            <div className={`${commonStyles.container}`}>
+            <div className={`${commonStyles.container} ${styles.welcomeContainer}`}>
                 <div className={styles.photo}>
                     <img src={foto} alt=""/>
                 </div>

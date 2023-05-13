@@ -1,0 +1,9 @@
+.projectsBlock {
+    height: 100vh;
+}
+
+.projectsContainer {
+    padding-top: 40px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
