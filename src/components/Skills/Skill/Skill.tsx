@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Skill.module.css'
-
+import commonStyles from '../../../common/Common.module.css'
 
 type PropsType = {
     title: string
@@ -13,7 +13,7 @@ export const Skill = (props: PropsType) => {
 
     return (
         <div className={styles.skill}>
-            <div className={styles.icon}>
+            <div className={commonStyles.icon}>
                 <img src={icon} alt="icon"/>
             </div>
             <h4 className={styles.title}>{title}</h4>
