@@ -3,6 +3,8 @@ import styles from './Project.module.css'
 import fon from '../../../content/img/2.png'
 import commonStyles from '../../../common/Common.module.css'
 import {Link} from 'react-router-dom';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faEye } from '@fortawesome/free-regular-svg-icons';
 
 export const Project = () => {
 
@@ -32,7 +34,9 @@ export const Project = () => {
                 <p className={styles.description}>Lorem ipsum dolor sit amet</p>
                 <div className={`${commonStyles.icon} ${styles.icon} `}>
                     <Link to={'https://karchershop.by/product/rm-519-sredstvo-dlya-ochistki-kovrov-3v1/'}>
+                        <FontAwesomeIcon icon={faEye} fade style={{color: "#ff508e",}} />
                     </Link>
+
                 </div>
             </div>
         </div>
